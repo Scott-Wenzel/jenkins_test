@@ -11,6 +11,11 @@ pipeline {
                 sh 'ls -la'
             }
         }
+        stage('myStage3'){
+            steps {
+                sh 'ls -la'
+            }
+        }
         stage('Build') {
             steps { 
                 sh 'ls' 
